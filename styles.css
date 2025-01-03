@@ -1,0 +1,43 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: PeachPuff;
+}
+
+#arr {
+    text-align: center;
+    border-radius: 15px;
+}
+
+.arrElem {
+    position: relative;
+    border: solid 1px;
+    background-color: AliceBlue;
+    margin: 1.1px;
+    width: 10px;
+    text-align: center;
+    font-size: small;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.searching {
+    background-color: LightGreen;
+}
+
+.searched {
+    background-color: LightPink;
+}
+
+.toBeSort {
+    background-color: LightGoldenRodYellow;
+}
+
+span{
+    position:absolute;
+    top:-15px;
+    left: -2px;
+    font-size: 10px;
+}
